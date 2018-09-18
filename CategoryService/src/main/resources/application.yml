@@ -1,0 +1,11 @@
+spring:
+ data:
+   mongodb:
+     uri: mongodb://localhost/CategoryServiceDB
+     username: user2
+     password: Root@123
+     database: CategoryServiceDB
+     port: 27017
+     host: localhost
+server:
+ port: 8083

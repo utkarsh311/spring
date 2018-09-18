@@ -1,0 +1,11 @@
+spring:
+ data:
+   mongodb:
+     uri: mongodb://localhost/ReminderServiceDB
+     username: user3
+     password: Root@123
+     database: ReminderServiceDB
+     port: 27017
+     host: localhost
+server:
+ port: 8084

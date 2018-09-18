@@ -1,0 +1,11 @@
+spring:
+ data:
+   mongodb:
+     uri: mongodb://localhost/NoteServiceDB
+     username: user4
+     password: Root@123
+     database: NoteServiceDB
+     port: 27017
+     host: localhost
+server:
+ port: 8084
